@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schaltjahrrechner</title>
+    <link rel="stylesheet" href="Schaltjahrrechner.css" />
+  </head>
+  <body>
+    <h1>Schaltjahrrechner</h1>
+
+    <div class="container">
+      <label for="jahresEingabe">Jahr eingeben:</label>
+      <input type="number" id="jahresEingabe" placeholder="z.B. 2024" />
+
+      <button onclick="pruefeSchaltjahr()">Prüfen</button>
+
+      <div id="ergebnisbereich"></div>
+    </div>
+
+    <button id="bild">Surprise</button>
+
+    <script src="Schaltjahrrechner.js"></script>
+
+    <img
+      id="bildElement"
+      src="schaltjahr-automatik-fahren-29-februar-geschenk-beanie.jpg"
+      alt="Schaltjahr"
+    />
+  </body>
+</html>

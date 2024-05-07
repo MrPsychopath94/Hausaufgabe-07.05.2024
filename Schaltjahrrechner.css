@@ -1,0 +1,39 @@
+body {
+  font-family: Papyrus, fantasy;
+  text-align: center;
+  background-image: url("panthermedia_B337492522_4595x2449-scaled-e1708948266112-1200x600.jpg");
+}
+
+.container {
+  margin: 20px auto;
+  width: 300px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #00fff2;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+#ergebnisbereich {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+h1 {
+  color: rgb(0, 136, 91);
+}
+
+#bildElement {
+  display: none;
+  width: 500px;
+}
