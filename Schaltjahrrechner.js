@@ -33,12 +33,12 @@ document.getElementById("jahresEingabe").addEventListener("input", function () {
   const istSchaltjahr = pruefeSchaltjahr(jahr);
   aktualisiereErgebnis(jahr, istSchaltjahr);
 });
-let button3 = document.getElementById("bild");
+let button3 = document.getElementById("Bild");
 
 button3.onclick = function () {
-    if (bildElement.style.display === "none") {
-      bildElement.style.display = "block";
-    } else {
-      bildElement.style.display = "none";
-    }
-  };
+  if (bildElement.style.display === "none") {
+    bildElement.style.display = "block";
+  } else {
+    bildElement.style.display = "none";
+  }
+};
